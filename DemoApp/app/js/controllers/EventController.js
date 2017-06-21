@@ -11,13 +11,7 @@ eventsApp.controller('EventController', function ($scope, eventData, $log) {
     $scope.buttonDisabled = true;
     $scope.sortorder = 'name';
     $log.warn(eventData);
-    eventData.getEvent().success(
-        function (event) {
-            $scope.event = event;
-        }
-    ).error(function (data, status, headers, config) {
-        $log.warn(data, status, headers, config);
-    });
+    $scope.event = eventData.getEvent();
 
     $scope.upVoteSession = function(session) {
         session.upVoteCount++;

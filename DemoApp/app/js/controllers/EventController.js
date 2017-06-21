@@ -10,8 +10,14 @@ eventsApp.controller('EventController', function ($scope, eventData, $log) {
     $scope.myclass = 'blue';
     $scope.buttonDisabled = true;
     $scope.sortorder = 'name';
-    $log.warn(eventData);
-    $scope.event = eventData.getEvent();
+    eventData.getEvent()
+        .$promise
+        .then(function (event) {
+            $scope.event = event;
+        })
+        .catch(function (response) {
+            $log.warn(response);
+        });
 
     $scope.upVoteSession = function(session) {
         session.upVoteCount++;

@@ -18,8 +18,8 @@
       <file leaf-file-name="directives.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/directives.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state relative-caret-position="60">
+              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -61,10 +61,10 @@
         <option value="$PROJECT_DIR$/app/templates/Event.html" />
         <option value="$PROJECT_DIR$/app/templates/EventList.html" />
         <option value="$PROJECT_DIR$/scripts/web-server.js" />
-        <option value="$PROJECT_DIR$/app/templates/SampleDirective.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/js/app.js" />
         <option value="$PROJECT_DIR$/app/js/controllers/SampleDirectiveController.js" />
+        <option value="$PROJECT_DIR$/app/templates/SampleDirective.html" />
         <option value="$PROJECT_DIR$/app/js/directives.js" />
       </list>
     </option>
@@ -321,7 +321,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36557000" />
+    <option name="totallyTimeSpent" value="37054000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="940" height="1177" extended-state="0" />
@@ -628,22 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="17" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/filters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          <folding>
-            <marker date="1498015134000" expanded="true" signature="62:351" ph="{...}" />
-            <marker date="1498015134000" expanded="true" signature="91:349" ph="{...}" />
-            <marker date="1498015134000" expanded="true" signature="116:343" ph="{...}" />
-            <marker date="1498015134000" expanded="true" signature="137:171" ph="..." />
-            <marker date="1498015134000" expanded="true" signature="191:222" ph="..." />
-            <marker date="1498015134000" expanded="true" signature="242:281" ph="..." />
-            <marker date="1498015134000" expanded="true" signature="301:333" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1003,18 +987,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding>
+            <marker date="1498015134000" expanded="true" signature="62:351" ph="{...}" />
+            <marker date="1498015134000" expanded="true" signature="91:349" ph="{...}" />
+            <marker date="1498015134000" expanded="true" signature="116:343" ph="{...}" />
+            <marker date="1498015134000" expanded="true" signature="137:171" ph="..." />
+            <marker date="1498015134000" expanded="true" signature="191:222" ph="..." />
+            <marker date="1498015134000" expanded="true" signature="242:281" ph="..." />
+            <marker date="1498015134000" expanded="true" signature="301:333" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/SampleDirective.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/directives.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        <state relative-caret-position="60">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
       </provider>

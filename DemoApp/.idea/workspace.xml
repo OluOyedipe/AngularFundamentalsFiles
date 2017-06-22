@@ -15,11 +15,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SampleDirective.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/templates/SampleDirective.html">
+      <file leaf-file-name="directives.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/js/directives.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+            <state relative-caret-position="135">
+              <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -30,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -61,10 +61,11 @@
         <option value="$PROJECT_DIR$/app/templates/Event.html" />
         <option value="$PROJECT_DIR$/app/templates/EventList.html" />
         <option value="$PROJECT_DIR$/scripts/web-server.js" />
-        <option value="$PROJECT_DIR$/app/js/app.js" />
-        <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/js/directives.js" />
         <option value="$PROJECT_DIR$/app/templates/SampleDirective.html" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/js/app.js" />
+        <option value="$PROJECT_DIR$/app/js/controllers/SampleDirectiveController.js" />
+        <option value="$PROJECT_DIR$/app/js/directives.js" />
       </list>
     </option>
   </component>
@@ -174,6 +175,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DemoApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DemoApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -298,7 +321,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36064000" />
+    <option name="totallyTimeSpent" value="36557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="940" height="1177" extended-state="0" />
@@ -345,14 +368,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/web-server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/NewEvent.html" />
     <entry file="file://$PROJECT_DIR$/app/js/controllers/EventController.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -379,10 +394,11 @@
         <state relative-caret-position="30">
           <caret line="2" column="56" lean-forward="false" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
           <folding>
-            <marker date="1498109973000" expanded="true" signature="143:782" ph="{...}" />
-            <marker date="1498109973000" expanded="true" signature="198:319" ph="{&quot;templateUrl&quot;: 'templates/NewEvent.html'...}" />
-            <marker date="1498109973000" expanded="true" signature="373:495" ph="{&quot;templateUrl&quot;: 'templates/EventList.html'...}" />
-            <marker date="1498109973000" expanded="true" signature="557:671" ph="{&quot;templateUrl&quot;: 'templates/Event.html'...}" />
+            <marker date="1498111921000" expanded="true" signature="143:979" ph="{...}" />
+            <marker date="1498111921000" expanded="true" signature="198:319" ph="{&quot;templateUrl&quot;: 'templates/NewEvent.html'...}" />
+            <marker date="1498111921000" expanded="true" signature="373:495" ph="{&quot;templateUrl&quot;: 'templates/EventList.html'...}" />
+            <marker date="1498111921000" expanded="true" signature="557:671" ph="{&quot;templateUrl&quot;: 'templates/Event.html'...}" />
+            <marker date="1498111921000" expanded="true" signature="734:868" ph="{&quot;templateUrl&quot;: 'templates/SampleDirective.html'...}" />
           </folding>
         </state>
       </provider>
@@ -435,10 +451,11 @@
         <state relative-caret-position="30">
           <caret line="2" column="56" lean-forward="false" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
           <folding>
-            <marker date="1498109973000" expanded="true" signature="143:782" ph="{...}" />
-            <marker date="1498109973000" expanded="true" signature="198:319" ph="{&quot;templateUrl&quot;: 'templates/NewEvent.html'...}" />
-            <marker date="1498109973000" expanded="true" signature="373:495" ph="{&quot;templateUrl&quot;: 'templates/EventList.html'...}" />
-            <marker date="1498109973000" expanded="true" signature="557:671" ph="{&quot;templateUrl&quot;: 'templates/Event.html'...}" />
+            <marker date="1498111921000" expanded="true" signature="143:979" ph="{...}" />
+            <marker date="1498111921000" expanded="true" signature="198:319" ph="{&quot;templateUrl&quot;: 'templates/NewEvent.html'...}" />
+            <marker date="1498111921000" expanded="true" signature="373:495" ph="{&quot;templateUrl&quot;: 'templates/EventList.html'...}" />
+            <marker date="1498111921000" expanded="true" signature="557:671" ph="{&quot;templateUrl&quot;: 'templates/Event.html'...}" />
+            <marker date="1498111921000" expanded="true" signature="734:868" ph="{&quot;templateUrl&quot;: 'templates/SampleDirective.html'...}" />
           </folding>
         </state>
       </provider>
@@ -945,43 +962,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <marker date="1498109973000" expanded="true" signature="143:782" ph="{...}" />
-            <marker date="1498109973000" expanded="true" signature="198:319" ph="{&quot;templateUrl&quot;: 'templates/NewEvent.html'...}" />
-            <marker date="1498109973000" expanded="true" signature="373:495" ph="{&quot;templateUrl&quot;: 'templates/EventList.html'...}" />
-            <marker date="1498109973000" expanded="true" signature="557:671" ph="{&quot;templateUrl&quot;: 'templates/Event.html'...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        <state relative-caret-position="465">
+          <caret line="31" column="53" lean-forward="false" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
           <folding>
-            <marker date="1498110135000" expanded="true" signature="50:1137" ph="..." />
-            <marker date="1498110135000" expanded="true" signature="57:257" ph="..." />
-            <marker date="1498110135000" expanded="true" signature="273:1129" ph="..." />
-            <marker date="1498110135000" expanded="true" signature="297:523" ph="..." />
-            <marker date="1498110135000" expanded="true" signature="322:492" ph="..." />
-            <marker date="1498110135000" expanded="true" signature="357:481" ph="..." />
-            <marker date="1498110135000" expanded="true" signature="386:466" ph="..." />
+            <marker date="1498111734000" expanded="true" signature="50:1246" ph="..." />
+            <marker date="1498111734000" expanded="true" signature="57:257" ph="..." />
+            <marker date="1498111734000" expanded="true" signature="273:1238" ph="..." />
+            <marker date="1498111734000" expanded="true" signature="297:523" ph="..." />
+            <marker date="1498111734000" expanded="true" signature="322:492" ph="..." />
+            <marker date="1498111734000" expanded="true" signature="357:481" ph="..." />
+            <marker date="1498111734000" expanded="true" signature="386:466" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/directives.js">
+    <entry file="file://$PROJECT_DIR$/app/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        <state relative-caret-position="330">
+          <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
           <folding>
-            <marker date="1498111556000" expanded="true" signature="59:294" ph="{...}" />
-            <marker date="1498111556000" expanded="true" signature="72:292" ph="{...}" />
-            <marker date="1498111556000" expanded="true" signature="133:286" ph="{...}" />
+            <marker date="1498111921000" expanded="true" signature="143:979" ph="{...}" />
+            <marker date="1498111921000" expanded="true" signature="198:319" ph="{&quot;templateUrl&quot;: 'templates/NewEvent.html'...}" />
+            <marker date="1498111921000" expanded="true" signature="373:495" ph="{&quot;templateUrl&quot;: 'templates/EventList.html'...}" />
+            <marker date="1498111921000" expanded="true" signature="557:671" ph="{&quot;templateUrl&quot;: 'templates/Event.html'...}" />
+            <marker date="1498111921000" expanded="true" signature="734:868" ph="{&quot;templateUrl&quot;: 'templates/SampleDirective.html'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/SampleDirectiveController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <folding>
+            <marker date="1498111921000" expanded="false" signature="0:37" ph="/** Created by olu on 6/21/17. ...*/" />
+            <marker date="1498111921000" expanded="true" signature="121:168" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -990,6 +1007,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding />
         </state>
       </provider>

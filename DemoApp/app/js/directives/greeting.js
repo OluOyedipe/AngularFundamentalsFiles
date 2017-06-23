@@ -8,10 +8,13 @@ eventsApp.directive('greeting', function () {
         restrict: 'E',
         replace: true,
         template: "<button class='btn' ng-click='sayHello()'>Say Hello</button>",
-        controller: function ($scope) {
-            $scope.sayHello = function () {
-                alert('Hello');
-            }
-        }
+        controller: 'GreetingController'
     };
+});
+
+
+eventsApp.controller('GreetingController', function ($scope) {
+    $scope.sayHello = function () {
+        alert('Hello');
+    }
 });

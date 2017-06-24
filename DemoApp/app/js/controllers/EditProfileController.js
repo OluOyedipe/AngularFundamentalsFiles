@@ -4,7 +4,9 @@ eventsApp.controller('EditProfileController',
     function EditProfileController($scope, gravatarUrlBuilder) {
         $scope.user = {};
 
-        $scope.getGravatarUrl = gravatarUrlBuilder.buildGravatarUrl;
+        $scope.getGravatarUrl = function (email) {
+            return gravatarUrlBuilder.buildGravatarUrl(email);
+        };
 
     }
 );
